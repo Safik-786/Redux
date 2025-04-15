@@ -9,5 +9,16 @@ export const decrease = () => {          // action creater
     type:"DECREAMENT"
   }
 }
+export const add20= () =>{
+  return{
+    type:"ADD20",
+    payload:10,
+  }
+}
+export const reset = () => {          // action creater
+  return {
+    type:"RESET"
+  }
+}
 
 
